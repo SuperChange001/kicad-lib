@@ -4,15 +4,15 @@
   (tags "Integrated Circuit")
   (attr smd)
   (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+      (effects (font (size 0.8 0.8) (thickness 0.1)))
     (tstamp 80014da0-54d0-48d5-b500-1ec517934788)
   )
   (fp_text value "VAL**" (at 0 0) (layer "Cmts.User") hide
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+      (effects (font (size 0.3 0.3) (thickness 0.05)))
     (tstamp 5cbf2080-fefb-4371-84dc-3e7dde46e76c)
   )
   (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
-      (effects (font (size 1.27 1.27) (thickness 0.254)))
+      (effects (font (size 0.3 0.3) (thickness 0.05)))
     (tstamp 68b80197-1c22-4739-b16f-e3d7adb1ccc1)
   )
   (fp_line (start -1.458 -0.8) (end -1 -1.258)
@@ -105,7 +105,7 @@
     (solder_mask_margin 0.05) (clearance 0.1) (tstamp 911378f7-9828-4452-af64-eb26fca3ef82))
   (pad "E6" smd circle (at 1 0.8) (size 0.26 0.26) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (clearance 0.1) (tstamp d2c9de55-e3a4-4468-8f1b-615b0d0121c7))
-  (model "MAX77654AENV+T.stp"
+  (model "${KICAD_USER_ES_LIB_DIR}/BGA30C40P6X5_279X234X50.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
