@@ -1,5 +1,5 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "MAX77654AENV+T" (in_bom yes) (on_board yes)
+  (symbol "MAX77654MENV+T" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at -12.7 24.892 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
@@ -30,7 +30,7 @@
     (property "ki_description" "ULTRA LOW POWER PMIC W/ 3-OUTPUT" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "MAX77654AENV+T_1_1"
+    (symbol "MAX77654MENV+T_1_1"
       (rectangle (start -12.7 20.32) (end 12.7 -20.32)
         (stroke (width 0.254) (type default))
         (fill (type background))
