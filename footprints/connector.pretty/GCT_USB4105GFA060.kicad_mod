@@ -68,7 +68,7 @@
     (solder_mask_margin 0.102) (tstamp dd4ea7e9-9549-46ec-adf6-49e9102b60f7))
   (pad "SH4" thru_hole roundrect (at 4.32 0) (size 1 1.8) (drill oval 0.6 1.4) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25)
     (solder_mask_margin 0.102) (tstamp 69e6c769-bde1-416f-bcd4-83d7b4d78827))
-  (model "${KICAD_USER_ES_LIB_DIR}/GCT_USB4105GFA060.stp"
+  (model "${KICAD_USER_ES_LIB_3DMODEL_DIR}/GCT_USB4105GFA060.stp"
     (offset (xyz 0 -2.7 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

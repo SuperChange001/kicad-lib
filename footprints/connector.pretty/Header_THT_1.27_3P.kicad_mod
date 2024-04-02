@@ -24,7 +24,7 @@
   (pad "1" thru_hole circle (at -1.27 0) (size 1 1) (drill 0.65) (layers "*.Cu" "*.Mask") (tstamp 7e468af6-c1a5-4114-8c11-b575437577be))
   (pad "2" thru_hole circle (at 0 0) (size 1 1) (drill 0.65) (layers "*.Cu" "*.Mask") (tstamp a52b1265-aa11-4ffa-87f8-9c7727353316))
   (pad "3" thru_hole circle (at 1.27 0) (size 1 1) (drill 0.65) (layers "*.Cu" "*.Mask") (tstamp d56f134b-9852-4348-9bfa-42a131d74376))
-  (model "${KICAD_USER_ES_LIB_DIR}/Header_THT_1.27_3P.stp"
+  (model "${KICAD_USER_ES_LIB_3DMODEL_DIR}/Header_THT_1.27_3P.stp"
     (offset (xyz -1.26 1.05 0.43))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -99,7 +99,7 @@
     (solder_mask_margin 0.05) (thermal_bridge_angle 45) (tstamp c38c764c-f463-4b99-bb22-f85d35e20106))
   (pad "22" smd roundrect (at 7.3 0.3) (size 1.6 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
     (solder_mask_margin 0.05) (thermal_bridge_angle 45) (tstamp d40038d7-c1a4-4745-af6e-270e201eca59))
-  (model "${KICAD_USER_ES_LIB_DIR}/Connector_20PIN_5052782033.stp"
+  (model "${KICAD_USER_ES_LIB_3DMODEL_DIR}/Connector_20PIN_5052782033.stp"
     (offset (xyz -0.25 -1.5 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

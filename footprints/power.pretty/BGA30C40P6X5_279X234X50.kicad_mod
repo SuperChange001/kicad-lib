@@ -97,7 +97,7 @@
     (solder_mask_margin 0.05) (clearance 0.1) (tstamp 911378f7-9828-4452-af64-eb26fca3ef82))
   (pad "E6" smd circle (at 1 0.8) (size 0.26 0.26) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (clearance 0.1) (tstamp d2c9de55-e3a4-4468-8f1b-615b0d0121c7))
-  (model "${KICAD_USER_ES_LIB_DIR}/BGA30C40P6X5_279X234X50.stp"
+  (model "${KICAD_USER_ES_LIB_3DMODEL_DIR}/BGA30C40P6X5_279X234X50.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -25,7 +25,7 @@
     (solder_mask_margin 0.05) (thermal_bridge_angle 0) (tstamp 3313382a-bff8-4407-968f-5c7638c6a4b3))
   (pad "2" smd roundrect (at -0.85 0) (size 0.8 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (solder_mask_margin 0.05) (thermal_bridge_angle 0) (tstamp 23a14d05-9ec0-4476-add8-c5e8b6853042))
-  (model "${KICAD_USER_ES_LIB_DIR}/L_0805_2012Metric.step"
+  (model "${KICAD_USER_ES_LIB_3DMODEL_DIR}/L_0805_2012Metric.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

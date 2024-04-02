@@ -39,7 +39,7 @@
     (solder_mask_margin 0.05) (tstamp e7e80d16-35dd-4ea2-9cff-812c584c3244))
   (pad "4" smd rect (at -2.25 -1.075 90) (size 0.75 1) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.05) (tstamp 1242f59b-396a-4b3c-93d3-8ebc9c138157))
-  (model "${KICAD_USER_ES_LIB_DIR}/TL3365AF180QG.stp"
+  (model "${KICAD_USER_ES_LIB_3DMODEL_DIR}/TL3365AF180QG.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
