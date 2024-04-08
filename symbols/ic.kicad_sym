@@ -346,7 +346,7 @@
         (number "11" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 12.7 -2.54 180) (length 2.54)
-        (name "CLK" (effects (font (size 1.27 1.27))))
+        (name "SCK" (effects (font (size 1.27 1.27))))
         (number "12" (effects (font (size 1.27 1.27))))
       )
       (pin bidirectional line (at 12.7 0 180) (length 2.54)

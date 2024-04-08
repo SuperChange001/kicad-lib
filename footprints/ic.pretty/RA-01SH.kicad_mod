@@ -17,15 +17,6 @@
       (effects (font (size 0.8 0.8) (thickness 0.1)))
     (tstamp 072316a1-df63-403d-a9fd-8205e7d2d1fd)
   )
-  (fp_poly
-    (pts
-      (xy -7.8 -7.7)
-      (xy -6.2 -7.7)
-      (xy -6.2 -6.3)
-      (xy -7.8 -6.3)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Cu") (tstamp 3aca7b4b-0c18-46ba-b6dc-2c06f1a0d15f))
   (fp_line (start -8.03125 -8.5) (end -8.03125 -7.7)
     (stroke (width 0.2) (type default)) (layer "F.SilkS") (tstamp 68a23f1f-12d7-46c9-ae5d-505ec1449f2a))
   (fp_line (start -8.03125 -6.3) (end -8.03125 -5.7)
@@ -94,8 +85,19 @@
     (stroke (width 0.2) (type default)) (layer "F.SilkS") (tstamp 7c85325f-1243-47cf-92c7-20e1617fde9b))
   (fp_line (start 8.03125 7.7) (end 8.03125 8.5)
     (stroke (width 0.2) (type default)) (layer "F.SilkS") (tstamp 40e34131-c0cc-465b-9eeb-bcf13ec25bcd))
-  (pad "1" smd roundrect (at -7.6821 -7 180) (size 1.5358 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.4)
-    (thermal_bridge_angle 45) (tstamp c266ad0e-86ff-467d-bbf4-7ec75a108eff))
+  (pad "1" smd custom (at -7.6821 -7 180) (size 1.5358 1) (layers "F.Cu" "F.Paste" "F.Mask")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly
+        (pts
+          (xy 0.1179 0.7)
+          (xy -1.4821 0.7)
+          (xy -1.4821 -0.7)
+          (xy 0.1179 -0.7)
+        )
+        (width 0.2) (fill yes))
+    ) (tstamp c266ad0e-86ff-467d-bbf4-7ec75a108eff))
   (pad "2" smd roundrect (at -7.6821 -5 180) (size 1.5358 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.4)
     (thermal_bridge_angle 45) (tstamp 9810870f-dc6a-42e9-b3aa-d8822fd7483c))
   (pad "3" smd roundrect (at -7.6821 -3 180) (size 1.5358 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.4)
@@ -126,9 +128,4 @@
     (thermal_bridge_angle 45) (tstamp 8d57faef-9c27-450d-8622-e539b0db2459))
   (pad "16" smd roundrect (at 7.6821 -7 180) (size 1.5358 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.4)
     (thermal_bridge_angle 45) (tstamp 0d24d68a-f464-44b4-8f46-38bc1ebd5096))
-  (model "${KICAD_USER_ES_LIB_3DMODEL_DIR}/Core126X.step"
-    (offset (xyz 9.5 -11 1))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 -90))
-  )
 )
