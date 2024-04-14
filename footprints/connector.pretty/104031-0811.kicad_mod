@@ -128,4 +128,9 @@
   (pad "12" smd rect (at -5.755 5.171501) (size 1.2192 1.8542) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 30e5a903-dd16-4f4d-a561-6e7bd2f3c727))
   (pad "13" smd rect (at -3.72999 -5.3035) (size 1.9558 1.397) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a1963dc7-8c79-4779-b143-42c48f205e50))
   (pad "14" smd rect (at 2.240011 -5.3035) (size 1.9558 1.397) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4a8f5326-75be-4d8e-9673-2a68c17d2e57))
+  (model "${KICAD_USER_ES_LIB_3DMODEL_DIR}/1040310811.stp"
+    (offset (xyz -44.5 1.5 0.6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
