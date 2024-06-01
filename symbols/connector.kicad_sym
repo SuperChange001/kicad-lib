@@ -1103,6 +1103,9 @@
     (property "MANUFACTURER" "CUI INC" (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
+    (property "Mouser Part Number" "490-PJ-102B" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (symbol "PJ-102B_0_0"
       (arc (start -5.715 3.81) (mid -6.9795 2.54) (end -5.715 1.27)
         (stroke (width 0.1524) (type default))
@@ -1391,6 +1394,12 @@
     )
     (property "MAXIMUM_PACKAGE_HEIGHT" "12.85mm" (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Mouser Part Number" "490-TBL002A3509GY2GY" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_description" "Terminal block, scre" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "TBL002A-350-09GY-2GY_0_0"
       (rectangle (start -5.08 -12.7) (end 5.08 12.7)
