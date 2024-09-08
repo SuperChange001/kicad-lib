@@ -158,7 +158,7 @@
     )
   )
   (symbol "MS421R-IV03E" (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at -2.032 -1.016 0)
+    (property "Reference" "BAT" (at -2.032 -1.016 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MS421R-IV03E" (at -0.762 6.35 0)
