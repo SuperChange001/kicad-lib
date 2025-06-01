@@ -277,8 +277,8 @@
 		)
 		(symbol "TSX-3225_16.0000MF18X-AC0_0_0"
 			(rectangle
-				(start -5.08 -7.62)
-				(end 5.08 5.08)
+				(start -5.08 3.81)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -401,24 +401,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 7.62 -5.08 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 7.62 0 180)
 				(length 2.54)
@@ -437,10 +419,30 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 7.62 -5.08 180)
+		)
+		(symbol "TSX-3225_16.0000MF18X-AC0_1_0"
+			(pin passive line
+				(at -7.62 -3.81 0)
 				(length 2.54)
-				(name "GND__1"
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -3.81 180)
+				(length 2.54)
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)

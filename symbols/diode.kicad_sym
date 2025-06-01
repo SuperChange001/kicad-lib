@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 44.45 7.62 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "PESD1CAN,215"
-			(at 44.45 5.08 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,22 +103,121 @@
 				(hide yes)
 			)
 		)
-		(symbol "PESD1CAN,215_1_1"
-			(rectangle
-				(start 5.08 2.54)
-				(end 43.18 -5.08)
+		(symbol "PESD1CAN,215_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -1.905) (xy -1.905 -1.27)
+				)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy -1.905 0.635) (xy -1.905 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -0.635) (xy 1.27 -1.905) (xy 0.635 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.905) (xy 1.27 0.635) (xy 0.635 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.905 1.27) (xy 1.905 -1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -1.27) (xy -0.635 -0.635) (xy -0.635 -1.905) (xy -1.905 -1.27) (xy -1.905 -0.635) (xy -1.27 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.27) (xy -0.635 1.905) (xy -0.635 0.635) (xy -1.905 1.27) (xy -1.905 1.905) (xy -1.27 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy 0 -1.27) (xy 0 -0.635) (xy 1.27 -1.27) (xy 0 -1.905) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy 0 1.27) (xy 0 1.905) (xy 1.27 1.27) (xy 0 0.635) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PESD1CAN,215_1_1"
 			(pin passive line
-				(at 0 0 0)
-				(length 5.08)
-				(name "CATHODE_1"
+				(at -3.81 1.27 0)
+				(length 1.905)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -134,9 +233,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "CATHODE_2"
+				(at -3.81 -1.27 0)
+				(length 1.905)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -152,9 +251,9 @@
 				)
 			)
 			(pin passive line
-				(at 48.26 0 180)
-				(length 5.08)
-				(name "COMMON_CATHODE"
+				(at 3.81 0 180)
+				(length 1.905)
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)

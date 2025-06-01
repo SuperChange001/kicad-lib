@@ -1340,7 +1340,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 2.54 21.59 270)
 				(length 2.54)
 				(name "V_IO"
@@ -1466,7 +1466,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 -24.13 90)
 				(length 2.54)
 				(name "VSS"
@@ -1484,7 +1484,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -2.54 21.59 270)
 				(length 2.54)
 				(name "VDDA"
@@ -1538,7 +1538,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -17.78 16.51 0)
 				(length 2.54)
 				(name "OSC1"
@@ -1556,7 +1556,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at -5.08 -24.13 90)
 				(length 2.54)
 				(name "GND"
@@ -1682,7 +1682,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 5.08 21.59 270)
 				(length 2.54)
 				(name "GND"
@@ -1700,7 +1700,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin passive line
 				(at 0 21.59 270)
 				(length 2.54)
 				(name "VDD"
@@ -1718,7 +1718,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at 17.78 2.54 180)
 				(length 2.54)
 				(name "TxCAN"
