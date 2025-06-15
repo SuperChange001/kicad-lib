@@ -1,82 +1,207 @@
-(footprint "MS421R_IV03E" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "<h3>SEIKO MS421R Reflowable Lithium Battery</h3><p>ML414H is a rechargeable, coin type battery with featuressuch as Pb-free reflowable (Peak temperature: 260 C) andhigh temperature heat resistance.</p><ul><li>3.3V</li><li>1.5mAH</li><li>4.8mm Diameter</li><li>10uA Discharge Rater</li></ul><p><a href=\"https://media.digikey.com/pdf/Data%20Sheets/Seiko%20Instruments%20PDFs/MS421R_MS621R_DS.pdf\">Datasheet</a></p>")
-  (attr smd)
-  (fp_text reference "REF**" (at -0.0635 -3.1115) (layer "F.SilkS")
-      (effects (font (size 0.8 0.8) (thickness 0.1)))
-    (tstamp 45637b09-88ee-43dd-a3b2-62df3c2cef55)
-  )
-  (fp_text value "MS421R_IV03E" (at 1.27 3.1115) (layer "F.Fab")
-      (effects (font (size 0.8 0.8) (thickness 0.1)))
-    (tstamp 8510a9a8-1a53-4877-91a7-bb17ab6062e0)
-  )
-  (fp_poly
-    (pts
-      (xy 0.28 -2.68)
-      (xy 2.68 -2.68)
-      (xy 2.68 -0.28)
-    )
-
-    (stroke (width 0.05) (type solid)) (fill solid) (layer "F.Paste") (tstamp 674e09b0-145f-45c0-ada4-37157060aee1))
-  (fp_poly
-    (pts
-      (xy -1.5 1)
-      (xy 2.7 1)
-      (xy 2.7 2.7)
-      (xy -1.5 2.7)
-    )
-
-    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Paste") (tstamp f2cea1ab-2069-4a2c-bd7f-eabdedfefa3c))
-  (fp_arc (start -1.7526 1.6256) (mid -2.167968 -1.045071) (end 0.1778 -2.3876)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 20bda03e-595f-4035-9912-62909d1656ba))
-  (fp_arc (start 2.3876 -0.3302) (mid 2.42159 0.252132) (end 2.2606 0.8128)
-    (stroke (width 0.1524) (type solid)) (layer "F.SilkS") (tstamp 81fec953-7641-4ee6-a7d2-17b677121858))
-  (fp_poly
-    (pts
-      (xy 0.28 -2.68)
-      (xy 2.68 -2.68)
-      (xy 2.68 -0.28)
-    )
-
-    (stroke (width 0.05) (type solid)) (fill solid) (layer "F.Mask") (tstamp 9b1e05c1-e318-4c19-bcd1-93b3adf2fa54))
-  (fp_poly
-    (pts
-      (xy -1.5 1)
-      (xy 2.7 1)
-      (xy 2.7 2.7)
-      (xy -1.5 2.7)
-    )
-
-    (stroke (width 0.01) (type solid)) (fill solid) (layer "F.Mask") (tstamp 55efe265-b5a5-4d5b-b880-73437b4c010d))
-  (fp_circle (center 0 0) (end 2.4 0)
-    (stroke (width 0.0508) (type solid)) (fill none) (layer "F.Fab") (tstamp 56d840a4-cd91-40ca-958c-bc689fc7e904))
-  (fp_poly
-    (pts
-      (xy 0.8 -2.4)
-      (xy 2.4 -2.4)
-      (xy 2.4 -0.8)
-    )
-
-    (stroke (width 0.02) (type solid)) (fill solid) (layer "F.Fab") (tstamp 1c06e232-4492-4c35-b61b-365429b25f87))
-  (fp_poly
-    (pts
-      (xy -1.1 2.4)
-      (xy 2.4 2.4)
-      (xy 2.4 1.01)
-      (xy -1.1 1.01)
-    )
-
-    (stroke (width 0.02) (type solid)) (fill solid) (layer "F.Fab") (tstamp 320ff923-5b44-43e5-94a0-07481fc442bd))
-  (pad "+" smd custom (at 2.022 -2.032) (size 1 1) (layers "F.Cu")
-    (options (clearance outline) (anchor rect))
-    (primitives
-      (gr_poly
-        (pts
-          (xy -1.742 -0.648)
-          (xy 0.658 -0.648)
-          (xy 0.658 1.752)
-        )
-        (width 0.05) (fill yes))
-    ) (tstamp 93654872-ae46-410a-8256-a6fdab2b5896))
-  (pad "-" smd rect (at 0.6 1.85) (size 4.2 1.7) (layers "F.Cu") (tstamp 4e30bb8b-c670-46f9-8c4c-7cfee71de43b))
+(footprint "MS421R_IV03E"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<h3>SEIKO MS421R Reflowable Lithium Battery</h3><p>ML414H is a rechargeable, coin type battery with featuressuch as Pb-free reflowable (Peak temperature: 260 C) andhigh temperature heat resistance.</p><ul><li>3.3V</li><li>1.5mAH</li><li>4.8mm Diameter</li><li>10uA Discharge Rater</li></ul><p><a href=\"https://media.digikey.com/pdf/Data%20Sheets/Seiko%20Instruments%20PDFs/MS421R_MS621R_DS.pdf\">Datasheet</a></p>")
+	(property "Reference" "REF**"
+		(at -0.0635 -3.1115 0)
+		(layer "F.SilkS")
+		(uuid "45637b09-88ee-43dd-a3b2-62df3c2cef55")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MS421R_IV03E"
+		(at 1.27 3.1115 0)
+		(layer "F.Fab")
+		(uuid "8510a9a8-1a53-4877-91a7-bb17ab6062e0")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5bd01fe-b492-48c7-bc41-17f22406e5fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c53165d7-8ff4-49b2-86c8-aa372a8f2688")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aea18044-3071-4232-987b-b1bd60a4f011")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.28 -2.68) (xy 2.68 -2.68) (xy 2.68 -0.28)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "674e09b0-145f-45c0-ada4-37157060aee1")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 1) (xy 2.7 1) (xy 2.7 2.7) (xy -1.5 2.7)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "f2cea1ab-2069-4a2c-bd7f-eabdedfefa3c")
+	)
+	(fp_arc
+		(start -1.7526 1.6256)
+		(mid -2.167968 -1.045071)
+		(end 0.1778 -2.3876)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20bda03e-595f-4035-9912-62909d1656ba")
+	)
+	(fp_arc
+		(start 2.3876 -0.3302)
+		(mid 2.42159 0.252132)
+		(end 2.2606 0.8128)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81fec953-7641-4ee6-a7d2-17b677121858")
+	)
+	(fp_poly
+		(pts
+			(xy 0.28 -2.68) (xy 2.68 -2.68) (xy 2.68 -0.28)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "9b1e05c1-e318-4c19-bcd1-93b3adf2fa54")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 1) (xy 2.7 1) (xy 2.7 2.7) (xy -1.5 2.7)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "55efe265-b5a5-4d5b-b880-73437b4c010d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.4 0)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "56d840a4-cd91-40ca-958c-bc689fc7e904")
+	)
+	(fp_poly
+		(pts
+			(xy 0.8 -2.4) (xy 2.4 -2.4) (xy 2.4 -0.8)
+		)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "1c06e232-4492-4c35-b61b-365429b25f87")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1 2.4) (xy 2.4 2.4) (xy 2.4 1.01) (xy -1.1 1.01)
+		)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "320ff923-5b44-43e5-94a0-07481fc442bd")
+	)
+	(pad "+" smd custom
+		(at 2.022 -2.032)
+		(size 1 1)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.742 -0.648) (xy 0.658 -0.648) (xy 0.658 1.752)
+				)
+				(width 0.05)
+				(fill yes)
+			)
+		)
+		(uuid "93654872-ae46-410a-8256-a6fdab2b5896")
+	)
+	(pad "-" smd rect
+		(at 0.6 1.85)
+		(size 4.2 1.7)
+		(layers "F.Cu")
+		(uuid "4e30bb8b-c670-46f9-8c4c-7cfee71de43b")
+	)
+	(model "${KICAD_USER_ES_LIB_3DMODEL_DIR}/MS421R-IV03E.stp"
+		(offset
+			(xyz 0 0 0.61)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

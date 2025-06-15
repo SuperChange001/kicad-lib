@@ -9,19 +9,19 @@
 		(uuid "6f3d95ad-ab43-403d-9f98-5b304e1273f7")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.1)
 			)
 		)
 	)
 	(property "Value" "XTAL_TSX-3225_16.0000MF18X-AC0"
-		(at 17.425 2.885 0)
+		(at 0 2.7 0)
 		(layer "F.Fab")
 		(uuid "76f45de3-e082-4023-970c-7a28b953baf3")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 		)
 	)
